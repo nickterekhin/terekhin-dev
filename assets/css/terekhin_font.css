@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'archer-icons';
+    src:url('../fonts/terekhin_development.otf');
+    src:url('../fonts/terekhin_development.otf#iefix') format('embedded-opentype'),
+    url('../fonts/terekhin_development.ttf') format('truetype'),
+    url('../fonts/terekhin_development.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.td-label .td {
+    /* display: block;
+     font-size: 24px;
+     color: #FFFFFF;
+     width: 48px;
+     line-height: 48px;
+     text-align: center;
+     white-space: nowrap;*/
+
+}
+
+.td {
+    /* font-family: serif, 'archer-regular', 'archer-icons';
+     speak: none;
+     font-style: normal;
+     font-weight: normal;
+     font-variant: normal;
+     text-transform: none;
+     line-height: 1;
+
+     /!* Better Font Rendering =========== *!/
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;*/
+    display: inline-block;
+    font: normal normal normal 14px/1 archer-icons;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-top:-10px;
+
+}
+.td-logo:before {
+    content: "\e001";
+}
